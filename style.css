@@ -1,0 +1,92 @@
+
+
+body{
+    background-color: rgb(18, 34, 41);
+    color: white;
+    padding: 120px;
+    
+    
+}
+h1{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+    
+}
+.container h1 span{
+    color: rgb(20, 180, 20);
+    border-bottom: 4px solid;
+    padding-bottom: 5px;
+    
+
+}
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+
+    
+}
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius:  5px;
+
+
+
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+button{
+    width: 40%;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    background: rgb(105, 190, 105);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+
+}
+button img{
+    width: 25px;
+    cursor: pointer;
+}
+
+
+
+button:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+    color: rgb(224, 224, 188);
+}
+.footer{
+    margin: 12%;
+    padding-top: 60px;
+    font-size: 12px;
+    text-align: center;
+}
